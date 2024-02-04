@@ -1,10 +1,12 @@
 
 import './App.css';
+import Body from './Components/Body';
+import Browse from './Components/Browse';
 
 function App() {
   return (
-    <div className="font-semibold text-center text-red-700">
-    hello world...
+    <div >
+   <Body />
     </div>
   );
 }
